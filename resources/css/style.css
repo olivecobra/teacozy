@@ -1,17 +1,29 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+<!-- Body styling -->
+
+.body {
+  display: flex;
+  width: 1200px;
+  opacity: 0.9;
+  padding-top: 69px;
+}
+
+body {
   background-color: black;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
-  opacity: 0.9;
 }
 
 <!-- Header styling -->
 
 .header {
   display: flex;
+  margin-top: 70px;
 }
 
 header {
@@ -40,4 +52,20 @@ header {
 nav span {
   display: inline-block;
   padding: 10px;
+}
+
+<!-- Mission -->
+
+.mission {
+  width: 1200px;
+  height: 700px;
+  border: 1px solid white;
+  background-image: url("../images/muesli.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.missiontext {
+  display: block;
+  text-align: center;
 }

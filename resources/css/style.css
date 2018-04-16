@@ -56,16 +56,12 @@ nav span {
 
 <!-- Mission -->
 
-.mission {
-  width: 1200px;
+.missiontext {
+  display: block;
+  text-align: center;
   height: 700px;
   border: 1px solid white;
   background-image: url("../images/tea.jpg");
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.missiontext {
-  display: block;
-  text-align: center;
 }

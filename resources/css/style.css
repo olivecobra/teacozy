@@ -39,14 +39,12 @@ header {
 .navigation {
   display: flex;
   justify-content: flex-end;
-  border: 2px solid blue;
 }
 
 .logo {
   display: flex;
   height: 50px;
   padding-left: 10px;
-  border: 2px solid blue;
   flex-grow: 1;
 }
 
@@ -69,7 +67,6 @@ nav span {
   padding-top: 69px;
   height: 700px;
   width: 1200px;
-  border: 1px solid white;
   background-image: url("../images/tea.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -95,7 +92,6 @@ nav span {
   width: 1000px;
   height: 700px;
   margin: 0 auto;
-  border: 1px solid white;
   padding-top: 70px;
 }
 
@@ -104,7 +100,6 @@ nav span {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  border: 2px solid blue;
 }
 
 .teapic {
@@ -140,7 +135,6 @@ nav span {
   background-image: url("../images/img-locations.jpg");
   background-position: center top;
   background-repeat: no-repeat;
-  border: 1px dotted white;
 }
 
 .portland {
@@ -159,7 +153,6 @@ nav span {
   text-align: center;
   background-color: black;
   opacity: 1;
-  border: 3px dotted blue;
 }
 
 .store h3, p {

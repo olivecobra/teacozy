@@ -101,25 +101,23 @@ nav span {
 .images {
   display: flex;
   align-items: center;
-  width: 1000px;
-  height: 500px;
+  justify-content: center;
   flex-wrap: wrap;
   border: 2px solid blue;
-  justify-content: space-between;
 }
 
-.monthly div {
+.teapic {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5px;
+  margin: 15px;
+  width: 300px;
 }
 
-.monthly img {
-  width: 300px;
+.teapic img {
   height: 200px;
 }
 
-.monthly span {
+.teapic span {
   padding-top: 10px;
 }
